@@ -316,9 +316,7 @@ private class ReplyPopupCard(
     private fun compactTime(): String {
         val minutes = ((System.currentTimeMillis() - pick.sentAt) / 60_000).toInt()
         return when {
-            minutes < 1 -> android.text.format.DateUtils.getRelativeTimeSpanString(
-                System.currentTimeMillis(), System.currentTimeMillis(), android.text.format.DateUtils.MINUTE_IN_MILLIS,
-            ).toString()
+            minutes < 1 -> nowWord() ?: "0m"
             minutes < 60 -> "${minutes}m"
             minutes < 24 * 60 -> "${minutes / 60}h"
             else -> "${minutes / (24 * 60)}d"

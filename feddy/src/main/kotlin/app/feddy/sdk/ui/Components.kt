@@ -170,11 +170,27 @@ internal fun FeddyTopBar(
     }
 }
 
-/** "5 min. ago", "Yesterday": the row's when, in the device's language. */
-internal fun relativeTime(epochMs: Long, now: Long = System.currentTimeMillis()): String =
-    DateUtils.getRelativeTimeSpanString(
+/** "now", "5 min. ago", "Yesterday": the row's when, in the device's language. */
+internal fun relativeTime(epochMs: Long, now: Long = System.currentTimeMillis()): String {
+    if (now - epochMs < DateUtils.MINUTE_IN_MILLIS) nowWord()?.let { return it }
+    return DateUtils.getRelativeTimeSpanString(
         epochMs, now, DateUtils.MINUTE_IN_MILLIS, DateUtils.FORMAT_ABBREV_RELATIVE,
     ).toString()
+}
+
+/**
+ * The localized word for "now". DateUtils only says "0 minutes ago"; ICU
+ * has the word, from API 24. Null before that, so callers fall back.
+ */
+internal fun nowWord(): String? =
+    if (android.os.Build.VERSION.SDK_INT >= 24) {
+        android.icu.text.RelativeDateTimeFormatter.getInstance().format(
+            android.icu.text.RelativeDateTimeFormatter.Direction.PLAIN,
+            android.icu.text.RelativeDateTimeFormatter.AbsoluteUnit.NOW,
+        )
+    } else {
+        null
+    }
 
 /** A message's time: today's just the time, older ones the date too. */
 internal fun messageTime(context: android.content.Context, epochMs: Long): String {

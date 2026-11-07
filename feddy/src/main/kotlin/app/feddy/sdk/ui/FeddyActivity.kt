@@ -3,6 +3,7 @@ package app.feddy.sdk.ui
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
+import android.content.res.Configuration
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.BackHandler
@@ -58,6 +59,14 @@ internal class FeddyActivity : ComponentActivity() {
                 FeddyApp(start, conversationId, pendingConversation, onClose = { finish() })
             }
         }
+    }
+
+    override fun onConfigurationChanged(newConfig: Configuration) {
+        super.onConfigurationChanged(newConfig)
+        // The manifest keeps this activity alive across a dark-mode switch,
+        // so the system bar icons picked at creation have to be re-picked:
+        // otherwise dark icons sit on a dark page.
+        enableEdgeToEdge()
     }
 
     override fun onNewIntent(intent: Intent) {
