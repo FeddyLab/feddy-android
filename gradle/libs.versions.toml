@@ -1,0 +1,30 @@
+[versions]
+agp = "9.5.1"
+kotlin = "2.4.21"
+# Library floors, not latest: whatever the SDK depends on, every host app
+# inherits as a minimum. These are the newest versions that still build in a
+# host compiling against API 35 (Compose 1.12 / activity 1.11 demand 36-37).
+# A host on newer versions resolves upward as usual.
+composeBom = "2026.06.00"
+activityCompose = "1.10.1"
+coroutines = "1.9.0"
+junit = "4.13.2"
+json = "20260814"
+
+[libraries]
+compose-bom = { module = "androidx.compose:compose-bom", version.ref = "composeBom" }
+compose-ui = { module = "androidx.compose.ui:ui" }
+compose-foundation = { module = "androidx.compose.foundation:foundation" }
+compose-material3 = { module = "androidx.compose.material3:material3" }
+compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
+activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
+coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
+coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines" }
+junit = { module = "junit:junit", version.ref = "junit" }
+json = { module = "org.json:json", version.ref = "json" }
+
+[plugins]
+android-library = { id = "com.android.library", version.ref = "agp" }
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }

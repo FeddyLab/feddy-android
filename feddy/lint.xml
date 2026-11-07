@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- Dependency and compileSdk versions are floors on purpose; see gradle/libs.versions.toml. -->
+    <issue id="GradleDependency" severity="ignore" />
+    <issue id="NewerVersionAvailable" severity="ignore" />
+    <issue id="OldTargetApi" severity="ignore" />
+    <!-- Framework ExifInterface on purpose: used on API 24+ only, one dependency fewer. -->
+    <issue id="ExifInterface" severity="ignore" />
+</lint>
