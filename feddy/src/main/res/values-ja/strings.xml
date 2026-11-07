@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feddy_messages">メッセージ</string>
+    <string name="feddy_new_message">新規メッセージ</string>
+    <string name="feddy_send">送信</string>
+    <string name="feddy_compose_placeholder">問題の内容やご意見をお書きください…</string>
+    <string name="feddy_reply_placeholder">返信を入力…</string>
+    <string name="feddy_topic">種類</string>
+    <string name="feddy_submitted_fallback">受け付けました。通常 24〜48 時間以内に返信します。</string>
+    <string name="feddy_email_prompt_title">返信をメールでお知らせしますか？</string>
+    <string name="feddy_email_placeholder">you@example.com</string>
+    <string name="feddy_email_save">知らせる</string>
+    <string name="feddy_email_skip">スキップ</string>
+    <string name="feddy_email_add">メール通知</string>
+    <string name="feddy_email_invalid">メールアドレスをご確認ください。</string>
+    <string name="feddy_closed_notice">この会話は終了しました。7 日以内に返信すると続けられます。それ以降は新しい会話が始まります。</string>
+    <string name="feddy_status_closed">終了</string>
+    <string name="feddy_new_reply">新しい返信</string>
+    <string name="feddy_replied_format">%1$s から返信</string>
+    <string name="feddy_error_generic">問題が発生しました。もう一度お試しください。</string>
+    <string name="feddy_rate_limited">送信が多すぎます。しばらくしてからお試しください。</string>
+    <string name="feddy_close">閉じる</string>
+    <string name="feddy_cancel">キャンセル</string>
+    <string name="feddy_done">完了</string>
+    <string name="feddy_category_bug">不具合</string>
+    <string name="feddy_category_feature">機能のご要望</string>
+    <string name="feddy_category_question">質問</string>
+    <string name="feddy_category_billing">請求</string>
+    <string name="feddy_category_other">その他</string>
+    <string name="feddy_topic_choose">種類を選択</string>
+    <string name="feddy_feedback_prompt">この回答は役に立ちましたか？</string>
+    <string name="feddy_feedback_yes">はい</string>
+    <string name="feddy_feedback_no">いいえ</string>
+    <string name="feddy_feedback_thanks">ご回答ありがとうございます。</string>
+    <string name="feddy_resolved_notice">お役に立ててうれしいです。この会話は終了しました。7 日以内に返信すると続けられます。それ以降は新しい会話が始まります。</string>
+    <string name="feddy_attach">画像を添付</string>
+    <string name="feddy_attach_type_error">添付できるのは画像のみです。</string>
+    <string name="feddy_attach_size_error">画像が大きすぎます（最大 10 MB）。</string>
+    <string name="feddy_attach_count_error">1 件のメッセージにつき画像は 5 枚までです。</string>
+    <string name="feddy_home_greeting">どのようなご用件ですか？</string>
+    <string name="feddy_send_us_message">メッセージを送る</string>
+    <string name="feddy_your_messages">メッセージ</string>
+    <string name="feddy_see_all">すべて表示</string>
+    <string name="feddy_you">自分</string>
+</resources>

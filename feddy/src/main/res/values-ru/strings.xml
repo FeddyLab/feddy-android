@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feddy_messages">Сообщения</string>
+    <string name="feddy_new_message">Новое сообщение</string>
+    <string name="feddy_send">Отправить</string>
+    <string name="feddy_compose_placeholder">Опишите проблему или поделитесь идеей…</string>
+    <string name="feddy_reply_placeholder">Написать ответ…</string>
+    <string name="feddy_topic">Тема</string>
+    <string name="feddy_submitted_fallback">Получено! Обычно отвечаем в течение 24–48 часов.</string>
+    <string name="feddy_email_prompt_title">Прислать письмо, когда мы ответим?</string>
+    <string name="feddy_email_placeholder">you@example.com</string>
+    <string name="feddy_email_save">Сообщить мне</string>
+    <string name="feddy_email_skip">Пропустить</string>
+    <string name="feddy_email_add">Уведомления по почте</string>
+    <string name="feddy_email_invalid">Похоже, адрес указан неверно.</string>
+    <string name="feddy_closed_notice">Обращение закрыто. Ответьте в течение 7 дней, чтобы продолжить его; позже начнётся новое.</string>
+    <string name="feddy_status_closed">Закрыто</string>
+    <string name="feddy_new_reply">Новый ответ</string>
+    <string name="feddy_replied_format">Ответ от %1$s</string>
+    <string name="feddy_error_generic">Что-то пошло не так. Попробуйте ещё раз.</string>
+    <string name="feddy_rate_limited">Слишком много сообщений. Попробуйте позже.</string>
+    <string name="feddy_close">Закрыть</string>
+    <string name="feddy_cancel">Отмена</string>
+    <string name="feddy_done">Готово</string>
+    <string name="feddy_category_bug">Ошибка</string>
+    <string name="feddy_category_feature">Предложение</string>
+    <string name="feddy_category_question">Вопрос</string>
+    <string name="feddy_category_billing">Оплата</string>
+    <string name="feddy_category_other">Другое</string>
+    <string name="feddy_topic_choose">Выберите тему</string>
+    <string name="feddy_feedback_prompt">Этот ответ помог?</string>
+    <string name="feddy_feedback_yes">Да</string>
+    <string name="feddy_feedback_no">Нет</string>
+    <string name="feddy_feedback_thanks">Спасибо за ответ.</string>
+    <string name="feddy_resolved_notice">Рады, что помогло — это обращение закрыто. Ответьте в течение 7 дней, чтобы продолжить его; позже начнётся новое.</string>
+    <string name="feddy_attach">Прикрепить изображение</string>
+    <string name="feddy_attach_type_error">Прикрепить можно только изображения.</string>
+    <string name="feddy_attach_size_error">Изображение слишком большое (максимум 10 МБ).</string>
+    <string name="feddy_attach_count_error">Не более 5 изображений в сообщении.</string>
+    <string name="feddy_home_greeting">Чем мы можем помочь?</string>
+    <string name="feddy_send_us_message">Написать нам</string>
+    <string name="feddy_your_messages">Ваши сообщения</string>
+    <string name="feddy_see_all">Показать все</string>
+    <string name="feddy_you">Вы</string>
+</resources>

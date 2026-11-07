@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feddy_messages">消息</string>
+    <string name="feddy_new_message">新消息</string>
+    <string name="feddy_send">发送</string>
+    <string name="feddy_compose_placeholder">描述遇到的问题，或说说你的想法…</string>
+    <string name="feddy_reply_placeholder">写下回复…</string>
+    <string name="feddy_topic">分类</string>
+    <string name="feddy_submitted_fallback">已收到！我们通常在 24–48 小时内回复。</string>
+    <string name="feddy_email_prompt_title">回复时用邮件通知你？</string>
+    <string name="feddy_email_placeholder">you@example.com</string>
+    <string name="feddy_email_save">通知我</string>
+    <string name="feddy_email_skip">跳过</string>
+    <string name="feddy_email_add">邮件通知</string>
+    <string name="feddy_email_invalid">这个邮箱地址看起来不太对。</string>
+    <string name="feddy_closed_notice">此会话已结束。7 天内回复可以继续，超过后将新建会话。</string>
+    <string name="feddy_status_closed">已结束</string>
+    <string name="feddy_new_reply">新回复</string>
+    <string name="feddy_replied_format">%1$s 回复了你</string>
+    <string name="feddy_error_generic">出了点问题，请再试一次。</string>
+    <string name="feddy_rate_limited">消息发送太频繁，请稍后再试。</string>
+    <string name="feddy_close">关闭</string>
+    <string name="feddy_cancel">取消</string>
+    <string name="feddy_done">完成</string>
+    <string name="feddy_category_bug">问题</string>
+    <string name="feddy_category_feature">功能建议</string>
+    <string name="feddy_category_question">咨询</string>
+    <string name="feddy_category_billing">账单</string>
+    <string name="feddy_category_other">其他</string>
+    <string name="feddy_topic_choose">选择一个分类</string>
+    <string name="feddy_feedback_prompt">这个回答有帮助吗？</string>
+    <string name="feddy_feedback_yes">有帮助</string>
+    <string name="feddy_feedback_no">没帮助</string>
+    <string name="feddy_feedback_thanks">感谢你的反馈。</string>
+    <string name="feddy_resolved_notice">很高兴帮到你——本会话已关闭。7 天内回复可以继续，超过后将新建会话。</string>
+    <string name="feddy_attach">添加图片</string>
+    <string name="feddy_attach_type_error">只能添加图片。</string>
+    <string name="feddy_attach_size_error">图片太大了（最大 10 MB）。</string>
+    <string name="feddy_attach_count_error">每条消息最多 5 张图片。</string>
+    <string name="feddy_home_greeting">有什么可以帮你？</string>
+    <string name="feddy_send_us_message">给我们发消息</string>
+    <string name="feddy_your_messages">你的消息</string>
+    <string name="feddy_see_all">查看全部</string>
+    <string name="feddy_you">我</string>
+</resources>
