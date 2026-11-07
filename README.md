@@ -15,7 +15,10 @@ no third-party dependencies.
 
 ## Installation
 
-The SDK is on Maven Central. In your app module's `build.gradle.kts`:
+> **Not on Maven Central yet.** The first release, 0.1.0, is being prepared;
+> the coordinates below are the ones it will ship under.
+
+In your app module's `build.gradle.kts`:
 
 ```kotlin
 dependencies {
