@@ -10,7 +10,7 @@ plugins {
 }
 
 /** Reported as `sdk_version` in every message's context. */
-val sdkVersion = "0.1.0"
+val sdkVersion = "0.1.1"
 
 android {
     namespace = "app.feddy.sdk"

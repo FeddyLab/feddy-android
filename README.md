@@ -19,7 +19,7 @@ In your app module's `build.gradle.kts`:
 
 ```kotlin
 dependencies {
-    implementation("app.feddy:feddy:0.1.0")
+    implementation("app.feddy:feddy:0.1.1")
 }
 ```
 
