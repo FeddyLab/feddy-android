@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feddy_messages">Mesajlar</string>
+    <string name="feddy_new_message">Yeni mesaj</string>
+    <string name="feddy_send">Gönder</string>
+    <string name="feddy_compose_placeholder">Sorunu anlatın veya bir fikir paylaşın…</string>
+    <string name="feddy_reply_placeholder">Yanıt yazın…</string>
+    <string name="feddy_topic">Konu</string>
+    <string name="feddy_submitted_fallback">Aldık! Genellikle 24–48 saat içinde yanıt veriyoruz.</string>
+    <string name="feddy_email_prompt_title">Yanıt verdiğimizde e-posta almak ister misiniz?</string>
+    <string name="feddy_email_placeholder">you@example.com</string>
+    <string name="feddy_email_save">Bana haber ver</string>
+    <string name="feddy_email_skip">Atla</string>
+    <string name="feddy_email_add">E-posta bildirimleri</string>
+    <string name="feddy_email_invalid">Bu e-posta adresi doğru görünmüyor.</string>
+    <string name="feddy_closed_notice">Bu görüşme kapatıldı. Devam etmek için 7 gün içinde yanıt verin; sonrasında yeni bir görüşme başlar.</string>
+    <string name="feddy_status_closed">Kapalı</string>
+    <string name="feddy_new_reply">Yeni yanıt</string>
+    <string name="feddy_replied_format">%1$s yanıt verdi</string>
+    <string name="feddy_error_generic">Bir şeyler ters gitti. Lütfen tekrar deneyin.</string>
+    <string name="feddy_rate_limited">Çok fazla mesaj gönderildi. Lütfen daha sonra tekrar deneyin.</string>
+    <string name="feddy_close">Kapat</string>
+    <string name="feddy_cancel">İptal</string>
+    <string name="feddy_done">Bitti</string>
+    <string name="feddy_category_bug">Hata</string>
+    <string name="feddy_category_feature">Öneri</string>
+    <string name="feddy_category_question">Soru</string>
+    <string name="feddy_category_billing">Ödeme</string>
+    <string name="feddy_category_other">Diğer</string>
+    <string name="feddy_topic_choose">Bir konu seçin</string>
+    <string name="feddy_feedback_prompt">Bu yardımcı oldu mu?</string>
+    <string name="feddy_feedback_yes">Evet</string>
+    <string name="feddy_feedback_no">Hayır</string>
+    <string name="feddy_feedback_thanks">Bildirdiğiniz için teşekkürler.</string>
+    <string name="feddy_resolved_notice">Yardımcı olabildiğimize sevindik — bu görüşme artık kapatıldı. Devam etmek için 7 gün içinde yanıt verin; sonrasında yeni bir görüşme başlar.</string>
+    <string name="feddy_attach">Görsel ekle</string>
+    <string name="feddy_attach_type_error">Yalnızca görsel eklenebilir.</string>
+    <string name="feddy_attach_size_error">Görsel çok büyük (en fazla 10 MB).</string>
+    <string name="feddy_attach_count_error">Mesaj başına en fazla 5 görsel.</string>
+    <string name="feddy_home_greeting">Size nasıl yardımcı olabiliriz?</string>
+    <string name="feddy_send_us_message">Bize mesaj gönderin</string>
+    <string name="feddy_your_messages">Mesajlarınız</string>
+    <string name="feddy_see_all">Tümünü gör</string>
+    <string name="feddy_you">Siz</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feddy_messages">ข้อความ</string>
+    <string name="feddy_new_message">ข้อความใหม่</string>
+    <string name="feddy_send">ส่ง</string>
+    <string name="feddy_compose_placeholder">อธิบายปัญหาหรือแบ่งปันไอเดีย…</string>
+    <string name="feddy_reply_placeholder">เขียนข้อความตอบกลับ…</string>
+    <string name="feddy_topic">หัวข้อ</string>
+    <string name="feddy_submitted_fallback">ได้รับแล้ว! โดยปกติเราจะตอบกลับภายใน 24–48 ชั่วโมง</string>
+    <string name="feddy_email_prompt_title">ต้องการรับอีเมลเมื่อเราตอบกลับไหม</string>
+    <string name="feddy_email_placeholder">you@example.com</string>
+    <string name="feddy_email_save">แจ้งฉัน</string>
+    <string name="feddy_email_skip">ข้าม</string>
+    <string name="feddy_email_add">การแจ้งเตือนทางอีเมล</string>
+    <string name="feddy_email_invalid">อีเมลนี้ดูไม่ถูกต้อง</string>
+    <string name="feddy_closed_notice">การสนทนานี้ปิดแล้ว ตอบกลับภายใน 7 วันเพื่อสนทนาต่อ หลังจากนั้นจะเริ่มการสนทนาใหม่</string>
+    <string name="feddy_status_closed">ปิดแล้ว</string>
+    <string name="feddy_new_reply">ข้อความตอบกลับใหม่</string>
+    <string name="feddy_replied_format">%1$s ตอบกลับแล้ว</string>
+    <string name="feddy_error_generic">เกิดข้อผิดพลาด โปรดลองอีกครั้ง</string>
+    <string name="feddy_rate_limited">ส่งข้อความมากเกินไป โปรดลองอีกครั้งในภายหลัง</string>
+    <string name="feddy_close">ปิด</string>
+    <string name="feddy_cancel">ยกเลิก</string>
+    <string name="feddy_done">เสร็จสิ้น</string>
+    <string name="feddy_category_bug">ปัญหา</string>
+    <string name="feddy_category_feature">ข้อเสนอแนะ</string>
+    <string name="feddy_category_question">คำถาม</string>
+    <string name="feddy_category_billing">การชำระเงิน</string>
+    <string name="feddy_category_other">อื่นๆ</string>
+    <string name="feddy_topic_choose">เลือกหัวข้อ</string>
+    <string name="feddy_feedback_prompt">ข้อมูลนี้มีประโยชน์ไหม</string>
+    <string name="feddy_feedback_yes">ใช่</string>
+    <string name="feddy_feedback_no">ไม่</string>
+    <string name="feddy_feedback_thanks">ขอบคุณที่แจ้งให้เราทราบ</string>
+    <string name="feddy_resolved_notice">ยินดีที่ช่วยได้ — การสนทนานี้ปิดแล้ว ตอบกลับภายใน 7 วันเพื่อสนทนาต่อ หลังจากนั้นจะเริ่มการสนทนาใหม่</string>
+    <string name="feddy_attach">แนบรูปภาพ</string>
+    <string name="feddy_attach_type_error">แนบได้เฉพาะรูปภาพเท่านั้น</string>
+    <string name="feddy_attach_size_error">รูปภาพใหญ่เกินไป (สูงสุด 10 MB)</string>
+    <string name="feddy_attach_count_error">แนบได้สูงสุด 5 รูปต่อข้อความ</string>
+    <string name="feddy_home_greeting">มีอะไรให้เราช่วยไหม</string>
+    <string name="feddy_send_us_message">ส่งข้อความถึงเรา</string>
+    <string name="feddy_your_messages">ข้อความของคุณ</string>
+    <string name="feddy_see_all">ดูทั้งหมด</string>
+    <string name="feddy_you">คุณ</string>
+</resources>

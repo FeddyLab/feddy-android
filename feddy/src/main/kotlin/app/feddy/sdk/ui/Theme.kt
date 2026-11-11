@@ -16,7 +16,10 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalLayoutDirection
+import androidx.compose.ui.unit.LayoutDirection
 import app.feddy.sdk.core.FeddyConfig
 import app.feddy.sdk.core.FeddyCore
 import app.feddy.sdk.core.Rgb
@@ -67,9 +70,28 @@ internal fun FeddyTheme(content: @Composable () -> Unit) {
     val config by FeddyCore.config.collectAsState()
     val colors = feddyColors(scheme, config)
     MaterialTheme(colorScheme = scheme.copy(primary = colors.accent, onPrimary = colors.onAccent)) {
-        CompositionLocalProvider(LocalFeddyColors provides colors, content = content)
+        CompositionLocalProvider(
+            LocalFeddyColors provides colors,
+            LocalLayoutDirection provides panelDirection(),
+            content = content,
+        )
     }
 }
+
+// The panel reads in the direction of the language it shows: Arabic right
+// to left even in an app that never declared android:supportsRtl (that
+// flag is the host's; declaring it in this library's manifest would flip
+// the whole host app), and English left to right on a Hebrew phone, since
+// there are no Hebrew strings to show.
+@Composable
+private fun panelDirection(): LayoutDirection {
+    val configuration = LocalConfiguration.current
+    @Suppress("DEPRECATION")
+    val locale = if (Build.VERSION.SDK_INT >= 24) configuration.locales[0] else configuration.locale
+    return if (locale.language in RIGHT_TO_LEFT) LayoutDirection.Rtl else LayoutDirection.Ltr
+}
+
+private val RIGHT_TO_LEFT = setOf("ar")
 
 internal fun feddyColors(scheme: ColorScheme, config: FeddyConfig?): FeddyColors {
     // With no brand colour configured the panel borrows the system accent

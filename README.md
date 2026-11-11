@@ -161,9 +161,15 @@ readable.
 
 ## Localization
 
-The screens follow the device language and ship in ten: English, 简体中文,
-繁體中文, 日本語, 한국어, Deutsch, Français, Español, Português, and
-Русский. Anything else falls back to English.
+The screens follow the device language and ship in seventeen: English,
+简体中文, 繁體中文, 日本語, 한국어, Deutsch, Français, Español, Português,
+Русский, Italiano, Türkçe, Polski, Bahasa Indonesia, Tiếng Việt, ไทย and
+العربية. Anything else falls back to English. In Arabic the screens lay out
+right to left even if your app does not declare `android:supportsRtl`; the
+reply popup, which sits in your app's window, follows your app's setting.
+If your build keeps only some languages (`localeFilters` or
+`resourceConfigurations`), the SDK's strings for the others are dropped
+with your own.
 
 The five topics every project starts with — Bug, Feature, Question,
 Billing, Other — are translated by the SDK. Topics you add in the

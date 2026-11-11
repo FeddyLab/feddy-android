@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feddy_messages">الرسائل</string>
+    <string name="feddy_new_message">رسالة جديدة</string>
+    <string name="feddy_send">إرسال</string>
+    <string name="feddy_compose_placeholder">صف المشكلة أو شارك فكرة…</string>
+    <string name="feddy_reply_placeholder">اكتب ردًا…</string>
+    <string name="feddy_topic">الموضوع</string>
+    <string name="feddy_submitted_fallback">تم الاستلام! نرد عادةً خلال 24–48 ساعة.</string>
+    <string name="feddy_email_prompt_title">هل تريد رسالة بريد إلكتروني عندما نرد؟</string>
+    <string name="feddy_email_placeholder">you@example.com</string>
+    <string name="feddy_email_save">أعلمني</string>
+    <string name="feddy_email_skip">تخطي</string>
+    <string name="feddy_email_add">إشعارات البريد الإلكتروني</string>
+    <string name="feddy_email_invalid">يبدو أن هذا البريد الإلكتروني غير صحيح.</string>
+    <string name="feddy_closed_notice">تم إغلاق هذه المحادثة. رد خلال 7 أيام لمتابعتها؛ بعد ذلك ستبدأ محادثة جديدة.</string>
+    <string name="feddy_status_closed">مغلقة</string>
+    <string name="feddy_new_reply">رد جديد</string>
+    <string name="feddy_replied_format">رد %1$s</string>
+    <string name="feddy_error_generic">حدث خطأ ما. يُرجى المحاولة مرة أخرى.</string>
+    <string name="feddy_rate_limited">رسائل كثيرة جدًا. يُرجى المحاولة لاحقًا.</string>
+    <string name="feddy_close">إغلاق</string>
+    <string name="feddy_cancel">إلغاء</string>
+    <string name="feddy_done">تم</string>
+    <string name="feddy_category_bug">مشكلة</string>
+    <string name="feddy_category_feature">اقتراح</string>
+    <string name="feddy_category_question">سؤال</string>
+    <string name="feddy_category_billing">الدفع</string>
+    <string name="feddy_category_other">أخرى</string>
+    <string name="feddy_topic_choose">اختر موضوعًا</string>
+    <string name="feddy_feedback_prompt">هل كان هذا مفيدًا؟</string>
+    <string name="feddy_feedback_yes">نعم</string>
+    <string name="feddy_feedback_no">لا</string>
+    <string name="feddy_feedback_thanks">شكرًا لإخبارنا.</string>
+    <string name="feddy_resolved_notice">يسعدنا أن ذلك ساعدك — تم إغلاق هذه المحادثة الآن. رد خلال 7 أيام لمتابعتها؛ بعد ذلك ستبدأ محادثة جديدة.</string>
+    <string name="feddy_attach">إرفاق صورة</string>
+    <string name="feddy_attach_type_error">يمكن إرفاق الصور فقط.</string>
+    <string name="feddy_attach_size_error">الصورة كبيرة جدًا (10 ميغابايت كحد أقصى).</string>
+    <string name="feddy_attach_count_error">5 صور كحد أقصى لكل رسالة.</string>
+    <string name="feddy_home_greeting">كيف يمكننا مساعدتك؟</string>
+    <string name="feddy_send_us_message">أرسل إلينا رسالة</string>
+    <string name="feddy_your_messages">رسائلك</string>
+    <string name="feddy_see_all">عرض الكل</string>
+    <string name="feddy_you">أنت</string>
+</resources>

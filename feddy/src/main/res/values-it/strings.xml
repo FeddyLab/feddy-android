@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feddy_messages">Messaggi</string>
+    <string name="feddy_new_message">Nuovo messaggio</string>
+    <string name="feddy_send">Invia</string>
+    <string name="feddy_compose_placeholder">Descrivi il problema o condividi un\'idea…</string>
+    <string name="feddy_reply_placeholder">Scrivi una risposta…</string>
+    <string name="feddy_topic">Argomento</string>
+    <string name="feddy_submitted_fallback">Ricevuto! Di solito rispondiamo entro 24–48 ore.</string>
+    <string name="feddy_email_prompt_title">Vuoi un\'email quando rispondiamo?</string>
+    <string name="feddy_email_placeholder">you@example.com</string>
+    <string name="feddy_email_save">Avvisami</string>
+    <string name="feddy_email_skip">Salta</string>
+    <string name="feddy_email_add">Notifiche via email</string>
+    <string name="feddy_email_invalid">Questo indirizzo email non sembra corretto.</string>
+    <string name="feddy_closed_notice">Questa conversazione è chiusa. Rispondi entro 7 giorni per continuarla; dopo, ne inizierà una nuova.</string>
+    <string name="feddy_status_closed">Chiusa</string>
+    <string name="feddy_new_reply">Nuova risposta</string>
+    <string name="feddy_replied_format">%1$s ha risposto</string>
+    <string name="feddy_error_generic">Qualcosa è andato storto. Riprova.</string>
+    <string name="feddy_rate_limited">Troppi messaggi. Riprova più tardi.</string>
+    <string name="feddy_close">Chiudi</string>
+    <string name="feddy_cancel">Annulla</string>
+    <string name="feddy_done">Fine</string>
+    <string name="feddy_category_bug">Problema</string>
+    <string name="feddy_category_feature">Suggerimento</string>
+    <string name="feddy_category_question">Domanda</string>
+    <string name="feddy_category_billing">Pagamenti</string>
+    <string name="feddy_category_other">Altro</string>
+    <string name="feddy_topic_choose">Scegli un argomento</string>
+    <string name="feddy_feedback_prompt">Ti è stato utile?</string>
+    <string name="feddy_feedback_yes">Sì</string>
+    <string name="feddy_feedback_no">No</string>
+    <string name="feddy_feedback_thanks">Grazie per avercelo detto.</string>
+    <string name="feddy_resolved_notice">Felici di esserti stati d\'aiuto: questa conversazione ora è chiusa. Rispondi entro 7 giorni per continuarla; dopo, ne inizierà una nuova.</string>
+    <string name="feddy_attach">Allega immagine</string>
+    <string name="feddy_attach_type_error">Puoi allegare solo immagini.</string>
+    <string name="feddy_attach_size_error">L\'immagine è troppo grande (massimo 10 MB).</string>
+    <string name="feddy_attach_count_error">Massimo 5 immagini per messaggio.</string>
+    <string name="feddy_home_greeting">Come possiamo aiutarti?</string>
+    <string name="feddy_send_us_message">Scrivici un messaggio</string>
+    <string name="feddy_your_messages">I tuoi messaggi</string>
+    <string name="feddy_see_all">Vedi tutti</string>
+    <string name="feddy_you">Tu</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feddy_messages">Pesan</string>
+    <string name="feddy_new_message">Pesan baru</string>
+    <string name="feddy_send">Kirim</string>
+    <string name="feddy_compose_placeholder">Jelaskan masalahnya atau bagikan ide…</string>
+    <string name="feddy_reply_placeholder">Tulis balasan…</string>
+    <string name="feddy_topic">Topik</string>
+    <string name="feddy_submitted_fallback">Diterima! Kami biasanya membalas dalam 24–48 jam.</string>
+    <string name="feddy_email_prompt_title">Ingin dapat email saat kami membalas?</string>
+    <string name="feddy_email_placeholder">you@example.com</string>
+    <string name="feddy_email_save">Beri tahu saya</string>
+    <string name="feddy_email_skip">Lewati</string>
+    <string name="feddy_email_add">Notifikasi email</string>
+    <string name="feddy_email_invalid">Email ini sepertinya tidak benar.</string>
+    <string name="feddy_closed_notice">Percakapan ini sudah ditutup. Balas dalam 7 hari untuk melanjutkannya; setelah itu, percakapan baru akan dimulai.</string>
+    <string name="feddy_status_closed">Ditutup</string>
+    <string name="feddy_new_reply">Balasan baru</string>
+    <string name="feddy_replied_format">%1$s membalas</string>
+    <string name="feddy_error_generic">Terjadi kesalahan. Silakan coba lagi.</string>
+    <string name="feddy_rate_limited">Terlalu banyak pesan. Silakan coba lagi nanti.</string>
+    <string name="feddy_close">Tutup</string>
+    <string name="feddy_cancel">Batal</string>
+    <string name="feddy_done">Selesai</string>
+    <string name="feddy_category_bug">Bug</string>
+    <string name="feddy_category_feature">Saran</string>
+    <string name="feddy_category_question">Pertanyaan</string>
+    <string name="feddy_category_billing">Pembayaran</string>
+    <string name="feddy_category_other">Lainnya</string>
+    <string name="feddy_topic_choose">Pilih topik</string>
+    <string name="feddy_feedback_prompt">Apakah ini membantu?</string>
+    <string name="feddy_feedback_yes">Ya</string>
+    <string name="feddy_feedback_no">Tidak</string>
+    <string name="feddy_feedback_thanks">Terima kasih atas masukannya.</string>
+    <string name="feddy_resolved_notice">Senang bisa membantu — percakapan ini sekarang ditutup. Balas dalam 7 hari untuk melanjutkannya; setelah itu, percakapan baru akan dimulai.</string>
+    <string name="feddy_attach">Lampirkan gambar</string>
+    <string name="feddy_attach_type_error">Hanya gambar yang bisa dilampirkan.</string>
+    <string name="feddy_attach_size_error">Gambar terlalu besar (maks. 10 MB).</string>
+    <string name="feddy_attach_count_error">Maksimal 5 gambar per pesan.</string>
+    <string name="feddy_home_greeting">Ada yang bisa kami bantu?</string>
+    <string name="feddy_send_us_message">Kirim pesan kepada kami</string>
+    <string name="feddy_your_messages">Pesan Anda</string>
+    <string name="feddy_see_all">Lihat semua</string>
+    <string name="feddy_you">Anda</string>
+</resources>

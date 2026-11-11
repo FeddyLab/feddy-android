@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feddy_messages">Tin nhắn</string>
+    <string name="feddy_new_message">Tin nhắn mới</string>
+    <string name="feddy_send">Gửi</string>
+    <string name="feddy_compose_placeholder">Mô tả vấn đề hoặc chia sẻ ý tưởng…</string>
+    <string name="feddy_reply_placeholder">Viết phản hồi…</string>
+    <string name="feddy_topic">Chủ đề</string>
+    <string name="feddy_submitted_fallback">Đã nhận! Chúng tôi thường phản hồi trong vòng 24–48 giờ.</string>
+    <string name="feddy_email_prompt_title">Bạn muốn nhận email khi chúng tôi phản hồi?</string>
+    <string name="feddy_email_placeholder">you@example.com</string>
+    <string name="feddy_email_save">Báo cho tôi</string>
+    <string name="feddy_email_skip">Bỏ qua</string>
+    <string name="feddy_email_add">Thông báo qua email</string>
+    <string name="feddy_email_invalid">Email này có vẻ không đúng.</string>
+    <string name="feddy_closed_notice">Cuộc trò chuyện này đã đóng. Hãy trả lời trong vòng 7 ngày để tiếp tục; sau đó, một cuộc trò chuyện mới sẽ bắt đầu.</string>
+    <string name="feddy_status_closed">Đã đóng</string>
+    <string name="feddy_new_reply">Phản hồi mới</string>
+    <string name="feddy_replied_format">%1$s đã trả lời</string>
+    <string name="feddy_error_generic">Đã xảy ra lỗi. Vui lòng thử lại.</string>
+    <string name="feddy_rate_limited">Quá nhiều tin nhắn. Vui lòng thử lại sau.</string>
+    <string name="feddy_close">Đóng</string>
+    <string name="feddy_cancel">Hủy</string>
+    <string name="feddy_done">Xong</string>
+    <string name="feddy_category_bug">Lỗi</string>
+    <string name="feddy_category_feature">Đề xuất</string>
+    <string name="feddy_category_question">Câu hỏi</string>
+    <string name="feddy_category_billing">Thanh toán</string>
+    <string name="feddy_category_other">Khác</string>
+    <string name="feddy_topic_choose">Chọn chủ đề</string>
+    <string name="feddy_feedback_prompt">Câu trả lời này có hữu ích không?</string>
+    <string name="feddy_feedback_yes">Có</string>
+    <string name="feddy_feedback_no">Không</string>
+    <string name="feddy_feedback_thanks">Cảm ơn bạn đã cho chúng tôi biết.</string>
+    <string name="feddy_resolved_notice">Rất vui vì đã giúp được bạn — cuộc trò chuyện này đã đóng. Hãy trả lời trong vòng 7 ngày để tiếp tục; sau đó, một cuộc trò chuyện mới sẽ bắt đầu.</string>
+    <string name="feddy_attach">Đính kèm ảnh</string>
+    <string name="feddy_attach_type_error">Chỉ có thể đính kèm ảnh.</string>
+    <string name="feddy_attach_size_error">Ảnh quá lớn (tối đa 10 MB).</string>
+    <string name="feddy_attach_count_error">Tối đa 5 ảnh mỗi tin nhắn.</string>
+    <string name="feddy_home_greeting">Chúng tôi có thể giúp gì cho bạn?</string>
+    <string name="feddy_send_us_message">Gửi tin nhắn cho chúng tôi</string>
+    <string name="feddy_your_messages">Tin nhắn của bạn</string>
+    <string name="feddy_see_all">Xem tất cả</string>
+    <string name="feddy_you">Bạn</string>
+</resources>
